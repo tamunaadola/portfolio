@@ -6,7 +6,11 @@ import Portfolio from './components/Portfolio';
 
 export const App: React.FC = () => {
   return (
-    <Box>
+    <Box
+      sx={{
+        p: '0 2%',
+      }}
+    >
       <Header />
       <Routes>
         <Route path='/' element={<About />} />
