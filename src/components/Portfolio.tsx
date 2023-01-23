@@ -33,7 +33,6 @@ const Portfolio = () => {
               {element.description}
             </Typography>
             <Stack
-              spacing={2}
               my={3}
               sx={{
                 justifyContent: 'center',
@@ -46,8 +45,10 @@ const Portfolio = () => {
                 alignItems='center'
                 sx={{
                   backgroundColor: '#181818',
-                  width: { xs: '100%', md: '50%' },
+                  width: { md: '50%' },
                   border: '1px black',
+                  mt: '0 !important',
+                  mb: { xs: 1, md: 0 },
                 }}
               >
                 <a
@@ -68,8 +69,10 @@ const Portfolio = () => {
                   alignItems='center'
                   sx={{
                     backgroundColor: '#181818',
-                    width: { xs: '100%', md: '50%' },
+                    width: { md: '50%' },
                     border: '1px black',
+                    mt: '0 !important',
+                    ml: { xs: 0, md: 2 },
                   }}
                 >
                   <a
