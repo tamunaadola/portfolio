@@ -9,9 +9,10 @@ const Header = () => {
       position='sticky'
       sx={{
         mb: 3,
+        px:1,
         background: 'none',
         boxShadow: 0,
-        backdropFilter: 'blur(2px)',
+        backdropFilter: 'blur(40px)',
       }}
     >
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', p: 0 }}>
