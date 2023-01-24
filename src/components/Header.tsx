@@ -9,7 +9,7 @@ const Header = () => {
       position='sticky'
       sx={{
         mb: 3,
-        px:1,
+        px: 0,
         background: 'none',
         boxShadow: 0,
         backdropFilter: 'blur(40px)',
@@ -29,7 +29,7 @@ const Header = () => {
           color='error.dark'
           sx={{
             fontSize: {
-              xs: '14px',
+              xs: '12px',
               sm: '30px',
               md: '48px',
             },
@@ -38,11 +38,15 @@ const Header = () => {
         >
           NIKA KARUMIDZE
         </Typography>
-        <Stack direction='row' spacing='25%'>
+        <Stack direction='row'>
           <a href='https://www.linkedin.com/in/nika-karumidze/' target='blank'>
             <LinkedInIcon sx={{ fontSize: { xs: '28px', sm: '40px' } }} />
           </a>
-          <a href='https://github.com/nikakarumidze' target='blank'>
+          <a
+            href='https://github.com/nikakarumidze'
+            target='blank'
+            style={{ marginLeft: '10px' }}
+          >
             <GitHubIcon sx={{ fontSize: { xs: '28px', sm: '40px' } }} />
           </a>
         </Stack>
