@@ -1,3 +1,4 @@
+import auth from '../assets/auth.jpg';
 import hex2048 from '../assets/hex_2048.png';
 import spaceTourism from '../assets/Space_Tourism.png';
 import weatherApp from '../assets/Weather_App.png';
@@ -18,6 +19,27 @@ interface contentObject {
 
 export const content: contentObject[] = [
   {
+    id: 0,
+    name: 'User Authorization Page',
+    description:
+      'This project is connected to a database. You can test functionality: can register and log in. Routes are protected, and the Token is saved in local storage. REST API is used for requests with the tool Axios, For designing Material UI, for routing React Router DOM, and the validation with the npm package Validator. Also, unnecessary renderings are protected with React lazy function.',
+    image: auth,
+    link: 'https://auth-nest.surge.sh/',
+    githubLink: 'https://github.com/nikakarumidze/Auth',
+    date: 'February 2023',
+    skills: [
+      'Typescript',
+      'React',
+      'Material UI',
+      'React Router',
+      'axios',
+      'Rest API',
+      'Redux',
+      'HTML',
+      'CSS',
+    ],
+  },
+  {
     id: 1,
     name: 'Hexagon 2048',
     description:
@@ -33,7 +55,9 @@ export const content: contentObject[] = [
       'axios',
       'Rest API',
       'Context API',
+      'RTL & Jest',
       'Javascript',
+      'HTML',
       'CSS',
     ],
   },
@@ -52,6 +76,7 @@ export const content: contentObject[] = [
       'React Router',
       'Context API',
       'Javascript',
+      'HTML',
       'CSS',
     ],
   },
@@ -64,7 +89,7 @@ export const content: contentObject[] = [
     link: 'https://nikakarumidze.github.io/User-form-project-React/',
     githubLink: 'https://github.com/nikakarumidze/User-form-project-React',
     date: 'May 2022',
-    skills: ['React', 'Javascript', 'CSS Modules'],
+    skills: ['React', 'Javascript', 'HTML', 'CSS Modules'],
   },
   {
     id: 4,
