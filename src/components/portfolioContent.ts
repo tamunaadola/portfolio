@@ -28,9 +28,7 @@ export const content: contentObject[] = [
     githubLink: 'https://github.com/nikakarumidze/Auth',
     date: 'February 2023',
     skills: [
-      'Typescript',
       'React',
-      'Material UI',
       'React Router',
       'axios',
       'Rest API',
