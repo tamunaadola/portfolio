@@ -46,12 +46,7 @@ export const content: contentObject[] = [
     link: 'https://ezdnaormous-kneelxd.surge.sh/',
     date: 'December 2022',
     skills: [
-      'Typescript',
       'React',
-      'Material UI',
-      'React Router',
-      'axios',
-      'Rest API',
       'Context API',
       'RTL & Jest',
       'Javascript',

@@ -9,22 +9,9 @@ const About = () => {
     'SCSS',
     'Bootstrap',
     'Javascript',
-    'Typescript',
-    'jQuery',
     'JSON',
-    'Firebase',
     'React',
-    'React Router DOM',
-    'Rest API',
     'fetch',
-    'axios',
-    'Context API',
-    'Redux',
-    'styled Components',
-    'CSS Modules',
-    'Material UI',
-    'Jest & React Testing Library',
-    'Data Structures & Algorithms',
   ];
   return (
     <>
@@ -42,15 +29,13 @@ const About = () => {
           <Grid container justifyContent='space-around' sx={{ height: '100%' }}>
             <Grid item>
               <Typography variant='h6' sx={{ color: 'white' }}>
-                Hello, I am Nika. I started my journey into the Front-end field
-                more than a year ago. Before that, I was studying Business
-                Administration, but after taking a closer look into programming,
-                I have found myself in it.
+                Hello, I am Tamuna. I strive to create clean, organized code and to continuously improve my skills through ongoing learning
+                I enjoy solving complex problems and working on projects that challenge me to think creatively.
+
               </Typography>
               <br />
               <Typography variant='h6' sx={{ color: 'white' }}>
-                My primary interests are creating Front-end applications with
-                React / Typescript and solving algorithms sometimes.
+                When I'm not coding, you can find me hiking,  or experimenting with new bar recipes.
               </Typography>
             </Grid>
             <Grid item sx={{ my: { xs: 4, md: 0 } }}>

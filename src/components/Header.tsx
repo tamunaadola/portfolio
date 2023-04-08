@@ -36,14 +36,14 @@ const Header = () => {
             fontWeight: 'bold',
           }}
         >
-          NIKA KARUMIDZE
+          TAMUNA ADOLASHVILI
         </Typography>
         <Stack direction='row'>
-          <a href='https://www.linkedin.com/in/nika-karumidze/' target='blank'>
+          <a href='https://www.linkedin.com/in/tamuna-adolashvili-95b04a270/' target='blank'>
             <LinkedInIcon sx={{ fontSize: { xs: '28px', sm: '40px' } }} />
           </a>
           <a
-            href='https://github.com/nikakarumidze'
+            href='https://github.com/tamunaadola'
             target='blank'
             style={{ marginLeft: '10px' }}
           >
