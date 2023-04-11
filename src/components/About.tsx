@@ -13,6 +13,7 @@ const About = () => {
     'React',
     'fetch',
   ];
+
   return (
     <>
       <Typography
