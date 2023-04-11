@@ -1,1 +1,1 @@
-https://nika-karumidze-portfolio.surge.sh/
+https://tamuna-adolashvili-portfolio.surge.sh/
